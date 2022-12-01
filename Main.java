@@ -8,9 +8,9 @@ public class Main {
         while (true) {
             int attempt = new Scanner(System.in).nextInt();
             if (value < attempt) {
-                System.out.println("Загаданное число меньше!");
+                System.out.println("Задуманное число меньше!");
             } else if (value > attempt) {
-                System.out.println("Загаданное число больше!");
+                System.out.println("Задуманное число больше!");
             } else {
                 System.out.println("Вы угадали!");
                 break;
